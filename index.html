@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <form action="https://api.sheetmonkey.io/form/sYiJcchszUGScZUfVrWQvB" method="post">
+    <title>Vitor Museum</title>
+</head>
+<body>
+    
+        <div class="login-page">
+            <div class="form">
+        <h1>Welcome to the registration</h1>
+
+        <label>
+            <input type="text" name="username" placeholder="username">
+        </label>
+
+        <label>
+            <input type="email" name="email" placeholder="email">
+        </label>
+       
+        <input type="tel" id="telefone" name="tel" class="input-padrao" required placeholder="(DD) xxxxx-xxxx">
+
+        <label>
+            <input type="password" name="password" placeholder="password">
+        </label>
+
+        <div>
+            <input type="checkbox" id="subscribeNews"  value="newsletter"/> 
+            <label for="subscribeNews"> Accept the therms? <a href="https://www.gov.br/pt-br/termos-de-uso">Read the terms</a> </label>
+          </div>
+
+        <button type="submit">Register</button>
+
+        <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+
+        <input 
+        type="hidden" 
+        name="x-sheetmonkey-redirect" 
+        value="https://my-site.com/signup-success.html" />
+
+    </form>
+
+    <script scr="./script.js"></script>
+    
+</body>
+</html>
